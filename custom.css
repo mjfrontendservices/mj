@@ -1,0 +1,235 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 0px;
+}
+
+/* global */
+
+.highlight{
+    color: gold;
+}
+
+header{
+    height: 100vh;
+    text-align: center;
+    padding-top: 30vh;
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(./showcase.jpg) no-repeat center center;
+    background-size: cover;
+    color: aliceblue;
+}
+
+header h1{
+    font-weight: bold;
+    font-size: 60px;
+}
+
+header b{
+    font-size: 20px;
+}
+
+header button{
+    padding: 5px 30px 5px 30px;
+    border: aliceblue 2px solid;
+    margin-top: 20px;
+    font-size: 15px;
+    background: none;
+    color: #fff;
+    border-radius: 20px;
+    transition-property: background, color;
+    transition-duration: .5s;
+}
+
+header button:hover{
+    background: aliceblue;
+    color: #000;
+}
+
+/* myskills */
+
+.myskills{
+    background: rgb(33, 33, 33);
+    color: #fff;
+    padding: 30px 0 30px 0;
+}
+
+.myskills .container{
+    display: flex;
+}
+
+.myskills .skills,
+.myskills .img,
+.myskills .me{
+    width: 33.33%;
+    padding: 20px;
+}
+
+.myskills h2{
+    font-size: 20px;
+}
+
+.myskills .skills p{
+    margin-top: 10px;
+    font-size: 12px;
+}
+
+.myskills .skills .js,
+.myskills .skills .php,
+.myskills .skills .ci,
+.myskills .skills .python{
+    margin-top: 10px;
+    width: 100%;
+    height: 10px;
+    background: aliceblue;
+    border-radius: 10px;
+}
+
+.myskills .skills .js .rate{
+    width: 95%;
+    background: gold;
+    height: 100%;
+}
+
+.myskills .skills .php .rate{
+    width: 90%;
+    background: gold;
+    height: 100%;
+}
+
+.myskills .skills .python .rate{
+    width: 50%;
+    background: gold;
+    height: 100%;
+}
+
+.myskills .skills .ci .rate{
+    width: 85%;
+    background: gold;
+    height: 100%;
+}
+
+.myskills .me p{
+    padding: 10px 0 10px 0px;
+    font-size: 12px;
+}
+
+.myskills .img img{
+    width: 100%;
+    height: 232px;
+    border: gold 2px solid;
+}
+
+/* services */
+
+.services{
+    padding: 30px 0 30px 0;
+    background: rgb(33, 33, 33);
+    color: #fff;
+}
+
+.services h2{
+    font-size: 20px;
+}
+
+.services .service{
+    display: flex;
+}
+
+.services .square{
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+}
+
+.service .box{
+    background: rgb(19, 19, 19);
+    padding: 20px;
+}
+
+.box p{
+    padding: 20px 0 20px 0;
+    font-size: 12px;
+}
+
+.box i{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+/* portfolio */
+
+#portfolio{
+    padding: 20px 0 20px 0;
+    background: rgb(33, 33, 33);
+    color: aliceblue;
+    text-align: center;
+}
+
+#portfolio h2{
+    font-size: 20px;
+}
+
+#portfolio p{
+    padding: 20px 0 20px 0;
+    font-size: 12px;
+}
+
+#portfolio .hosted .squares{
+    display: flex;
+    padding: 20px;
+}
+
+.hosted .square{
+    width: 33.33%;
+    padding: 10px;
+}
+
+.hosted .square img{
+    width: 100%;
+    height: 200px;
+    border: gold 2px solid;
+}
+
+.hosted .square a{
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+/* footer */
+
+footer{
+    padding: 20px 0 20px 0;
+    background: rgb(21, 21, 21);
+    color: aliceblue;
+}
+
+footer h2{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+footer p{
+    font-size: 12px;
+    line-height: 30px;
+}
+
+footer a{
+    color: gold;
+    text-decoration: none;
+}
+
+footer a:hover{
+    color: gold;
+}
+
+/* tac */
+
+#tac p{
+    font-size: 12px;
+    line-height: 28px;
+}
