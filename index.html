@@ -26,6 +26,10 @@
     <link rel="stylesheet" href="./libraries/fontawesome/css/solid.min.css">
     <link rel="stylesheet" href="./libraries/fontawesome/css/svg-with-js.min.css">
     <link rel="stylesheet" href="./libraries/fontawesome/css/v4-shims.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="./libraries/OwlCarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="./libraries/OwlCarousel/dist/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./libraries/OwlCarousel/dist/assets/owl.theme.green.min.css">
     <!-- icon -->
     <link rel="icon" href="./logobig.png">
     <!-- custom -->
@@ -504,6 +508,32 @@
         </div>
     </section>
 
+    <section class="blogPosts">
+        <div class="container">
+            <h2>My Blog</h2>
+            <div class="owl-carousel">
+
+                <!-- item -->
+
+                <div class="item">
+                    <div class="img">
+                        <img src="./img/new.jpg" alt="">
+                    </div>
+                    <div class="desk">
+                        <h3>My Journey <span class="date">| August 31, 2021 at 8:04 AM</span></h3>
+                        <p>
+                            "I fear not the man who practiced 10000 kicks once. I fear the man who practiced one kick
+                            10000 times."<br>
+                            - Bruce Lee
+                        </p>
+                        <button data-toggle="modal" data-target="#myjourney"><i class="fa fa-eye"></i> View
+                            Post</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <footer>
         <div class="container">
             <h2>Contact me:</h2>
@@ -567,11 +597,102 @@
         </div>
     </div>
 
+    <!-- blog modals ==============================================================-->
+
+    <!-- modal -->
+
+    <div id="myjourney" class="modal fade" role="dialog">
+        <div class="modal-dialog">
+
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4>My Journey <span class="date">| Date posted: August 31, 2021 at 8:04 AM</span></h4>
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                </div>
+                <div class="modal-body">
+                    <img src="./img/new.jpg" alt="">
+                    <p>
+                        How are you? I hope you and your family are safe in amidst of pandemic. We are praying that
+                        the world will be back to normal again soon.<br>
+                        During this tough times, people are not able to go outside and travel because of this
+                        pandemic. Office works are not allowed in some places. The web is getting more
+                        powerful that it's goal is to connect the world during this hard times. Online shopping are
+                        booming,
+                        marketers are utilizing the internet to reach countless customers around the world. Pandemic has
+                        a huge impact on how we live today, so we must learn to transform ourselves in order
+                        for us to adopt in this hard times and to our dynamically changing world.<br><br>
+                        For those of you who don't know me or who haven't seen me before allow me to introduce myself
+                        and share my journey on how I achieve my tech skills and begin my career in web/applications
+                        development without any college degree.<br>
+                        Surprising right? yes I don't have a degree but I possess the skill and knowledge that a
+                        graduate in tech students have.<br>
+                        When I was a kid, I enjoy playing computer games ei: Counter Strike and Dota until I become
+                        addicted to it. From that
+                        point I became interested in computers. I studied Information and Communication Technology (ICT)
+                        in senior high school. Before, programming (C++ programming language) is the most painful and
+                        difficult subject to me. But after a few months, I discovered web development and become curious
+                        about it (as a matter of fact HTML is easier than C++). So I studied web development in my
+                        spare time. Our school (highschool) has an event where web page design is inluded in the
+                        competition. My tech teacher encourages me to join the competition, and I did. Luckily, I won
+                        because I have no competitors. The next step is to compete to other schools. My teacher
+                        provided me enough resources (youtube video tutorials) to prepare myself for another
+                        competition and I studied it with high enthusiasm. After a few weeks of studying, the
+                        competition started with four hours duration. Luckily, I was a second placer, (the first placer
+                        is a woman who are proficient in English laguage).<br>
+                        After that competition I didn't stop learning the resources given to me until I had created my
+                        own personal webpage successfully.<br>
+                        After we graduated, I want to pursue IT course in college. Unfortunately that course is close
+                        and I become hopeless. I enrolled in BSBA Entrepreneurship (business college) and I stayed there
+                        until pandemic arrive. During my 2nd year in college, I ask one of my professor that I will make
+                        a website for his resort for just PHP 1000, and I did it successfully.<br>
+                        When face to face classes are forbidden, I stayed at home for months and still learning web
+                        development. From that time, I only knew front end web development (HTML, CSS, and little
+                        Javascript).<br>
+                        After a few months, my teacher (who gave me learning resources) given me an opportunity
+                        to work on one of the tech company in Calbayog City. I grabbed the opportunity and after few
+                        weeks of training and struggling with logic in JQuery and PHP Laravel Framework, I was hired as
+                        apprentice.
+                        There I had learned a lot from frameworks, front end, back end and mobile app development. I've
+                        met more mentors (my co-workers) and experienced real world projects.<br>
+                        On January 2021, I resigned because I will continue my study (as my parents
+                        said), but I haven't gave up web development. I still make personal projects at home
+                        until now and build my own portfolio. I shifted in TMCF (local college) in San Isidro as
+                        Computer
+                        Science student but I've found out that there are unrelated (not applicable) subjects so I quit.
+                        For me
+                        there is no point in learning subjects that doesn't align to my goals because it's just a waste
+                        of
+                        time. I
+                        am seeking practical real world projects, so I can learn from them and I also want to
+                        add value to the workforce.<br><br>
+                        My point is, college education is important but don't rely on the belief that it will save
+                        your life. Yes, formal education and diploma is important for it is an added bonus in applying
+                        for jobs or if you want to become a scientist, doctor, lawyer and other profession
+                        that requires degree. But when you enter into the real world, what matters most is the skills
+                        you've learned and the experience you've gathered through the years. So keep improving yourself,
+                        never stop learning, always seek for self improvement, learn from people and mentors, practice
+                        everyday, dedicate yourself to achieve the dream you want in your life.<br><br>
+                        "I fear not the man who practiced 10000 kicks once. I fear the man who practiced one kick
+                        10000 times."<br>
+                        - Bruce Lee
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Back</button>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
     <!-- jquery -->
     <script src="./libraries/jquery/jquery.js"></script>
     <!-- bootstrap -->
     <script src="./libraries/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="./libraries/bootstrap/bootstrap.min.js"></script>
+    <!-- owl carousel -->
+    <script src="./libraries/OwlCarousel/dist/owl.carousel.min.js"></script>
     <!-- custom -->
     <script src="./custom.js"></script>
 </body>
